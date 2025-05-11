@@ -140,7 +140,7 @@ const Cart = () => {
     </div>
     <div id="cartrightbutton">
       <button className="cartrightbutton" onClick={handleCheckout}>Proceed to Checkout</button>
-      <button className="cartrightbutton" onClick={()=>navigate("/")}>Continue Shopping</button>
+      <button className="cartrightbutton" onClick={()=>navigate(-1)}>Continue Shopping</button>
     </div>
 
   </div>
