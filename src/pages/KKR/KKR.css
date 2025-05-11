@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Zetta:wght@100..900&display=swap');
+
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+  }
+  html::-webkit-scrollbar {
+    display: none;
+  }
+#kmain{
+    overflow-x: hidden;   
+}
+#ktop{
+    height:50vw;
+    width:100vw;
+    position: relative;
+    padding-top: 6.2vw;;
+}
+#container{
+    height:39.5vw;
+    width:100vw;
+    display: flex;
+    overflow: hidden;
+}
+#items{
+    width:100vw;
+    display: flex;
+}
+.item-col{
+    flex:1;
+    display: flex;
+}
+#item{
+    position: relative;
+    top:2.3vw;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    width:18vw; 
+       
+}
+.item-copy{
+    height:3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: 700;
+    font-family: pp;
+    line-height: 1.2vw;
+    padding-left: 0.5vw;
+}
+.item-side .item-img{   
+    overflow: hidden;
+    clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.item-img img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.item-copy-wrapper{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.item-main .item-img{
+    overflow: hidden;
+}
+.item-main .item-img img{    
+    transform: scale(0.5);
+    position: absolute;
+    top:-5vw;
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+}
+
+.kkrheader{
+    position: absolute;
+    bottom:23%;
+    transform-origin: center center;
+    width:100vw;
+    display: flex;   
+
+}
+.header-item{
+    position: relative;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: ab;
+    transform: scale(0.25);
+}
+.header-item-1{
+    left:18vw;
+}
+.header-item-2{
+right:18vw;
+}
+.letter{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:18vw;
+    font-weight: 200;
+    font-family: ab;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+#kmid{
+    height:40vw;
+    width:100vw;
+    position: relative;
+    padding-top: 6.2vw;;
+}
+#kbottom1{
+    height:105vw;
+    width:100vw;
+    position: relative;
+    padding-top:2vw;
+}
+.kb1headin
+{
+    height:14vw;
+    width:100vw;
+    margin-top: 3vw;
+    font-family: xx;
+    margin-left: 0.5vw;
+    font-size: 2.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#1F0245,#250452,#31076F,#F2C029,#C9932C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+#kkrproducts{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+#filter{
+font-family: pp;
+height:24vw;
+width:14vw;
+padding-left: 2vw;
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+border-radius: 1vw;
+}
+#filter h3{
+    margin-bottom: 1vw;
+    font-size: 1.6vw;
+}
+#filter form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: pp;
+    font-size: 1.2vw;
+}
+.filterbtn{
+    height:3vw;
+    width:106%;
+    background-color: #1F0245;
+    color: white;
+    border-radius: 0.5vw;
+    font-family:a2;
+    font-size: 1.2vw;
+    font-weight: 700;
+    cursor: pointer;
+   
+}
+
+#products{    
+    min-height:80vw;
+    width:80vw;    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#kbottom2{
+    height: 60vw;
+    width:100vw;
+    position: relative;
+    padding-top: 6.2vw;;
+}
+.profile-images{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.img{
+    height:13.5vw;
+    width:10vw;
+    object-fit: cover;
+    border:2px solid #F2C029;
+    border-radius: 0.5vw;
+    overflow: hidden;
+    cursor: pointer;
+    will-change: height,width;
+}
+.profile-images img{
+    height:100%;
+    width:100%;
+    object-fit: cover;   
+}
+.profile-names{
+    height:18vw;    
+    width:100vw;
+    margin-top: 3.3vw;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+    color:whitesmoke;
+    overflow: hidden;
+}
+.name h1{
+    position: absolute;
+    width:100%;
+    text-align: center;
+  font-family:"Barlow Condensed";
+  font-size: 16.55vw;
+  font-weight: 860;
+  letter-spacing:-0.05vw;
+  line-height: 1;
+  color:#5812c1;  
+  user-select: none;
+  transform:translateY(100%);
+}
+.name.default h1{
+    color:#e3e3db;
+    transform:translateY(-100%);
+}
+.name h1 .letter1{
+    position: relative;
+    transform:translateY(0%);
+    will-change: transform;
+}

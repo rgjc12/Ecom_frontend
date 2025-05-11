@@ -1,0 +1,134 @@
+#navbar{
+    height:6.6vw;
+    width:100vw;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(58,34,93,1) 51%, rgba(242,191,38,1) 100%);    
+}
+#nav-l-logo{
+    height: 6.3vw;
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-l-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#nav-r{
+    height:6.3vw;
+    width:28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nr-t{
+    height:2.1vw;
+    width:10vw;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3vw;     
+
+}
+#nr-b{
+    height:4.2vw;
+    width:28vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding-right: 2vw;
+    color:whitesmoke;
+    font-family: xx;
+    font-weight: 700;
+    font-size: 1.17vw;
+    }
+    #nrrtext{
+        display:flex;
+    }
+   
+#navr-l{
+    height:1.9vw;
+    width:auto;    
+    cursor:pointer;
+    }
+    #navr-r{
+        height:1.9vw;
+        width:auto;        
+        cursor:pointer;
+    }
+#cartcircle1{
+    height:1.7vw;
+    width:1.8vw;
+    background-color: #3A225D;
+    border-radius: 5px;
+    padding: 0.025vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:whitesmoke;
+    margin-bottom: 0.15vw;
+}
+.nunder1{
+    height:2px;
+    width:0%;
+    background-color: whitesmoke;
+}
+.nunder2{
+    height:2px;
+    width:0%;
+    background-color: whitesmoke;
+}
+.nunder3{
+    height:2px;
+    width:0%;
+    background-color: whitesmoke;
+}
+#nr-t {
+    height: 2.1vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3vw;
+  }
+  
+  .icon-link {
+    position: relative;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 0;
+    font-size: 1.75vw;
+    left: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .icon.line {
+    opacity: 1;
+  }
+  
+  .icon.fill {
+    opacity: 0;
+  }
+  
+  .icon-link:hover .line {
+    opacity: 0;
+  }
+  
+  .icon-link:hover .fill {
+    opacity: 1;
+  }
+  

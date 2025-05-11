@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Zetta:wght@100..900&display=swap');
+#footer{
+    height:52vw;
+    width: 100vw;
+     background: rgb(0, 0, 0);
+    background: linear-gradient(180deg,  rgba(32, 83, 170, 1) 1%,  rgba(14, 47, 130, 1) 19%, rgba(9, 26, 72, 1) 41%,  rgba(2, 8, 24, 1) 67%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#fleft{
+    height:100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;    
+}
+#fright{
+    height:100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;    
+}
+#fmain{
+    height:4vw;
+    width: 20vw;
+    display: inline-flex;
+    font-family: a2;
+    color:rgb(245, 243, 243);
+    font-size: 2vw;
+    font-weight: 600;
+    overflow: hidden;
+    perspective: 1500px;
+    pointer-events: none;
+    margin-top:1.5vw;
+    margin-left: 1.5vw;
+}
+
+
+.link{
+    position: relative;
+    transform: translateY(3vw);
+    margin-left: 8vw;
+    
+}
+#on{
+    color:rgb(183, 179, 179);
+}
+#off{
+    position: absolute;
+    margin-top: 2vw;
+    transform:translateX(-5vw);
+    opacity: 0;
+    transition: all 0.35s ease-in-out;
+}
+.off:hover #off{
+    opacity: 1;
+    transform:translateX(-3vw);
+    margin-top: 0;
+}
+.off{
+   padding-left:3vw;
+}
+
+.link a{
+    font-family: a1;
+    color:white;
+    font-size: 2.5vw;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 1vw;
+    transform: translateY(3vw);
+    opacity: 0;
+}
+#video-wrapper{
+    margin-left: 1.5vw;
+    margin-top: 9vw;
+   width:80%;
+   height: 20vw;   
+   overflow: hidden;
+   clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);  
+}
+#video-wrapper video{
+    width: 29vw;
+    height:17vw;
+    object-fit: cover;
+}
+#socials{
+   display: flex;
+   gap: 13vw;
+   margin-left: 15vw;
+   margin-top: 10vw;
+   color:whitesmoke;
+   font-family: a2;
+   font-size: 0.9vw;
+   font-weight: 300;
+}
+#socials a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+#socials .sub-col p{
+    transform: translateY(3vw);
+    opacity: 0;
+}
+.spacediv{
+    margin-top: 5vw;
+}
+
+#header{
+    color:whitesmoke;
+    font-family: "Barlow Condensed";
+    font-size:23vw;   
+    font-weight: 800;
+    margin-top: 2vw;
+    overflow: hidden;
+    letter-spacing: -0.10em;   
+}
+#header span{
+    position: relative;
+     opacity: 0;
+    display: inline-block;
+    transform:scale(0.75) translateY(6vw) rotateY(90deg);
+    transform-origin: bottom;
+}
